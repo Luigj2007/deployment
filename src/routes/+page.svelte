@@ -13,30 +13,21 @@
         align-items: center;
         min-height: 100vh;
         background-color: beige;
-        margin: 0;
-        font-family: Arial, sans-serif;
     }
-
-    .container{
+    div{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 40px;
         border-radius: 30px;
         background-color: tan;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-        max-width: 500px;
-        text-align: center;
-    }
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+        margin:  15 px;
 
+    }
     h1{
         color: rgb(99, 77, 48);
-        margin-bottom: 10px;
     }
-
     p{
         color: rgb(99, 77, 48);
-        line-height: 1.5;
     }
 </style>
